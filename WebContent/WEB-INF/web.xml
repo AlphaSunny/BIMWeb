@@ -189,4 +189,24 @@
     <servlet-name>ProprietorEditDeadlineServlet</servlet-name>
     <url-pattern>/proprietorEditDeadline</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>BidderServlet</display-name>
+    <servlet-name>BidderServlet</servlet-name>
+    <servlet-class>com.itheima.web.bidder.servlet.BidderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BidderServlet</servlet-name>
+    <url-pattern>/bidder</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>BaseServlet</display-name>
+    <servlet-name>BaseServlet</servlet-name>
+    <servlet-class>com.itheima.web.bidder.servlet.BaseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BaseServlet</servlet-name>
+    <url-pattern>/BaseServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

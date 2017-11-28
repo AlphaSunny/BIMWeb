@@ -53,7 +53,8 @@ font {
 					style="width: 440px; border: 1px solid #E7E7E7; padding: 20px 0 20px 30px; border-radius: 5px; margin-top: 60px; background: #fff;">
 					<font>Welcome the bidder</font>BIDDER LOGIN
 					<div>&nbsp;</div>
-					<form class="form-horizontal" action="${pageContext.request.contextPath }/bidderLogin" method="post">
+					<form class="form-horizontal" method="post" action="${pageContext.request.contextPath }/bidder"  >
+						<input type="hidden" name="method" value="login">
 						<div class="form-group">
 							<label for="username" class="col-sm-2 control-label">username</label>
 							<div class="col-sm-6">
